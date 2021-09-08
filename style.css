@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.column {
+    text-align: center;
+
+}
+
+body {
+    background-image: url("BACKGROUND.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 90vh;
+
+}
+
+footer {
+    height: 2vh;
+    
+}
+
+button {
+    max-height: 50px;
+
+}
+
+.text {
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 50%;
+}
