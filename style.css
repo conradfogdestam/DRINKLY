@@ -1,42 +1,234 @@
-* {
-    margin: 0px;
+@font-face {
+  font-family: "Overpass Light";
+  src: url("/fonts/Overpass-Light.ttf");
 }
-.top {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-.column {
-    text-align: center;
 
+@font-face {
+  font-family: "Overpass Bold";
+  src: url(/fonts/Overpass-Bold.ttf);
+}
+
+* {
+  margin: 0px;
+  color: aliceblue;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+.column {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body {
-    background-image: url("BACKGROUND.png");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-main {
-    height: 90vh;
-
+  background-image: url("/icons&background/BACKGROUND (1).png");
+  background-size: cover;
+  background-attachment: fixed;
+  max-height: 100vh;
 }
 
 footer {
-    height: 2vh;
-    
+  max-height: 0%;
+  text-align: center;
 }
 
-button {
-    max-height: 50px;
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 
+.icon {
+  padding-right: 30px;
+}
+
+.menuicon {
+  padding-left: 200px;
+}
+
+main {
+  height: 90vh;
+}
+
+.some-page-wrapper {
+  background-color: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.leftcolumn {
+  display: block;
+}
+
+.col1row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 25vh;
+}
+
+.col1row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 6vh;
+}
+
+.col1row3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 22vh;
+}
+
+.col1row4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 10vh;
+}
+
+.tryitoutbutton {
+  font-size: 30px;
+  font-family: "Overpass Light";
+  src: url("/fonts/Overpass-Light.ttf");
+  background-color: #E11F26;
+  border: 0px;
+  width: 300px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.tryitoutbutton:hover {
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.maincolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .text {
-    height: 90vh;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-    width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 35px;
+  font-family: "Overpass Light";
+  src: url("/fonts/Overpass-Light.ttf");
+  max-width: 60%;
+  color: #A9A9A9;
 }
+
+.header {
+  color: #D2D2D2;
+  font-size: 70px;
+  font-family: "Overpass Bold";
+  src: url("/fonts/Overpass-Bold.ttf");
+}
+
+.right-column {
+  height: 92vh;
+  background-image: url("/icons&background/coctail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */
