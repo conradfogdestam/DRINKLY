@@ -41,7 +41,7 @@ body {
 footer {
   font-family: "Overpass Light";
   src: url("/fonts/Overpass-Light.ttf");
-  height: 0.5vh;
+  font-size: 1vh;
   max-height: 0;
   text-align: center;
 }
