@@ -22,7 +22,7 @@
           justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 2%;
+  padding-top: 2vh;
 }
 
 .column {
@@ -39,7 +39,10 @@ body {
 }
 
 footer {
-  max-height: 0%;
+  font-family: "Overpass Light";
+  src: url("/fonts/Overpass-Light.ttf");
+  height: 0.5vh;
+  max-height: 0;
   text-align: center;
 }
 
@@ -52,16 +55,22 @@ footer {
           justify-content: space-between;
 }
 
+.logo {
+  width: 12vw;
+}
+
 .icon {
-  padding-right: 30px;
+  width: 2vw;
+  padding-right: 2vw;
 }
 
 .menuicon {
-  padding-left: 200px;
+  width: 2vw;
+  padding-left: 10vw;
 }
 
 main {
-  height: 90%;
+  height: 90vh;
 }
 
 .some-page-wrapper {
@@ -82,7 +91,7 @@ main {
 }
 
 .leftcolumn {
-  display: block;
+  width: 200vw;
 }
 
 .col1row1 {
@@ -104,6 +113,7 @@ main {
       flex-wrap: wrap;
   width: 100%;
   height: 20vh;
+  min-height: 20vh;
 }
 
 .col1row2 {
@@ -124,8 +134,8 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  height: 10%;
-  padding-bottom: 2%;
+  height: 5vh;
+  min-height: 5vh;
 }
 
 .col1row3 {
@@ -146,9 +156,8 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  height: 40%;
-  padding-bottom: 1%;
-  margin-bottom: 1%;
+  height: 20vh;
+  min-height: 20vh;
 }
 
 .col1row4 {
@@ -169,17 +178,18 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  height: 18%;
+  height: 6vh;
+  min-height: 6vh;
 }
 
 .tryitoutbutton {
-  font-size: 30px;
+  font-size: 1vw;
   font-family: "Overpass Light";
   src: url("/fonts/Overpass-Light.ttf");
   background-color: #E11F26;
   border: 0px;
-  width: 25%;
-  height: 60%;
+  width: 12.5vw;
+  height: 5vh;
   border-radius: 50px;
 }
 
@@ -213,16 +223,17 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 240%;
+  font-size: 3.2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
   font-family: "Overpass Light";
   src: url("/fonts/Overpass-Light.ttf");
-  max-width: 60%;
   color: #A9A9A9;
 }
 
 .header {
   color: #D2D2D2;
-  font-size: 450%;
+  font-size: 5vh;
   font-family: "Overpass Bold";
   src: url("/fonts/Overpass-Bold.ttf");
 }
@@ -233,5 +244,30 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media screen and (max-width: 1200px) {
+  div.right-column {
+    display: none;
+  }
+  div.col1row1 {
+    width: 100vw;
+  }
+  div.col1row2 {
+    width: 100vw;
+  }
+  div.col1row3 {
+    width: 100vw;
+  }
+  div.col1row4 {
+    width: 100vw;
+  }
+  div.text {
+    max-width: none;
+  }
+  div.tryitoutbutton {
+    width: 40vw;
+    height: 10vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
