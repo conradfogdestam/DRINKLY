@@ -61,7 +61,7 @@ footer {
 }
 
 main {
-  height: 90vh;
+  height: 90%;
 }
 
 .some-page-wrapper {
@@ -103,7 +103,7 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  height: 25vh;
+  height: 20vh;
 }
 
 .col1row2 {
@@ -124,7 +124,8 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  height: 6vh;
+  height: 10%;
+  padding-bottom: 2%;
 }
 
 .col1row3 {
@@ -145,7 +146,9 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  height: 22vh;
+  height: 40%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 .col1row4 {
@@ -166,7 +169,7 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  height: 10vh;
+  height: 18%;
 }
 
 .tryitoutbutton {
@@ -175,8 +178,8 @@ main {
   src: url("/fonts/Overpass-Light.ttf");
   background-color: #E11F26;
   border: 0px;
-  width: 300px;
-  height: 80px;
+  width: 25%;
+  height: 60%;
   border-radius: 50px;
 }
 
@@ -210,7 +213,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 35px;
+  font-size: 240%;
   font-family: "Overpass Light";
   src: url("/fonts/Overpass-Light.ttf");
   max-width: 60%;
@@ -219,7 +222,7 @@ main {
 
 .header {
   color: #D2D2D2;
-  font-size: 70px;
+  font-size: 450%;
   font-family: "Overpass Bold";
   src: url("/fonts/Overpass-Bold.ttf");
 }

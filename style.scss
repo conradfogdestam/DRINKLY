@@ -72,7 +72,7 @@ footer {
 //----------------------- MAIN ------------------------------------
 
 main {
-    height: 90vh;
+    height: 90%;
 }
 
 .some-page-wrapper {
@@ -92,28 +92,31 @@ main {
 .col1row1 {
     @include centercontent();
     @include row();
-    height: 25vh;
+    height: 20vh;
 
 }
 
 .col1row2 {
     @include centercontent();
     @include row();
-    height: 6vh;
+    height: 10%;
+    padding-bottom: 2%;
     
 }
 
 .col1row3 {
     @include centercontent();
     @include row();
-    height: 22vh;
+    height: 40%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
     
 }
 
 .col1row4 {
     @include centercontent();
     @include row();
-    height: 10vh;
+    height: 18%;
     
 }
 
@@ -124,8 +127,8 @@ main {
     src: url("/fonts/Overpass-Light.ttf");
     background-color: #E11F26;
     border: 0px;
-    width: 300px;
-    height: 80px;
+    width: 25%;
+    height: 60%;
     border-radius: 50px;
 
 }
@@ -142,7 +145,7 @@ main {
 
 .text {
     @include centercontent();
-    font-size: 35px;
+    font-size: 240%;
     font-family: "Overpass Light";
     src: url("/fonts/Overpass-Light.ttf");
     max-width: 60%;
@@ -152,7 +155,7 @@ main {
 
 .header {
     color: #D2D2D2;
-    font-size: 70px;
+    font-size: 450%;
     font-family: "Overpass Bold";
     src: url("/fonts/Overpass-Bold.ttf");
 }
